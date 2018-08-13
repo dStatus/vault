@@ -1,0 +1,24 @@
+{
+  "name": "@dstatus/vault",
+  "version": "1.0.0",
+  "description": "A nodejs API for DWEB which is compatible with dStatus' DWebVault API",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -s test/*.js"
+  },
+  "author": "Distributed Webs Project <developers@dwebs.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@dbrowser/errors": "~0.1.2",
+    "@dpack/api": "~0.2.0",
+    "@dpack/core": "~2.0.2",
+    "@dwebs/dns": "~0.1.4",
+    "@dwebs/parse": "~0.1.3",
+    "concat-stream": "^1.6.0",
+    "dom-event-target": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "tempy": "^0.1.0"
+  }
+}
